@@ -5,9 +5,9 @@
 
 		//inlog gegevens enz voor de database
 		$db_hostname = 'localhost';
-		$db_username = 'root';
+		$db_username = '';
 		$db_password = '';
-		$db_database = 'veipro';
+		$db_database = '';
 
 		//connect met de db
 		$mysql = mysqli_connect($db_hostname, $db_username, $db_password, $db_database);
